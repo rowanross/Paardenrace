@@ -1,0 +1,12 @@
+[
+    { "TypeName": "Speedy", "type": "Speedy", "description": "Very fast, consistent speed.", "speed": 0.3 },
+    { "TypeName": "Slow", "type": "Slow", "description": "Slower than average.", "speed": 0.05 },
+    { "TypeName": "Sprinter", "type": "Sprinter", "description": "Starts slow but becomes very fast.", "speedPattern": [0.05, 0.3] },
+    { "TypeName": "Pauser", "type": "Pauser", "description": "Sometimes pauses.", "pauseChance": 0.9, "speed": 0.15 },
+    { "TypeName": "Random Speed", "type": "Random Speed", "description": "Unpredictable speed.", "speedRange": [0.05, 0.3] },
+    { "TypeName": "Early Bird", "type": "Early Bird", "description": "Quick start but slows down.", "speedPattern": [0.3, 0.1] },
+    { "TypeName": "Strong Finisher", "type": "Strong Finisher", "description": "Slow start but fast finish.", "speedPattern": [0.1, 0.3] },
+    { "TypeName": "Turbo", "type": "Turbo", "description": "Consistent but slightly faster speed.", "speed": 0.2 },
+    { "TypeName": "Unpredictable", "type": "Unpredictable", "description": "Changes speed randomly.", "speedRange": [0.1, 0.4] },
+    { "TypeName": "Lazy Sprinter", "type": "Lazy Sprinter", "description": "Slow, but sometimes speeds up.", "speedPattern": [0.05, 0.2] }
+]

@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+.input-section {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#race-container {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    height: 300px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+#track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.horse {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+#finish-line {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background-color: black;
+}
+
+#scoreboard {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#horse-list {
+    margin-bottom: 10px;
+    color: #666;
+    text-align: left;
+}
+
+.horse-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#betting-section {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.bet-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.bet-container button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.bet-amount {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.horse-name {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.bet-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bet-button:hover {
+    background-color: #218838;
+}
+
+.bet-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
